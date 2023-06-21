@@ -13,7 +13,7 @@ import { listTodos } from "./src/graphql/queries";
 import {
   withAuthenticator,
   useAuthenticator,
-} from "aws-amplify/ui-react-native";
+} from "@aws-amplify/ui-react-native";
 
 import { Amplify } from "aws-amplify";
 import awsExports from "./src/aws-exports";
